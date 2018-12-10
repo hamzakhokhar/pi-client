@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="pi-local-WiFi-home">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/pi" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
+            <excludedPath path="/home/pi/node_modules" />
+            <excludedPath path="/home/pi/bcm2835-1.57" />
+            <excludedPath path="/home/pi/aws-iot-device-sdk-js" />
+            <excludedPath path="/home/pi/.node-gyp" />
+            <excludedPath path="/home/pi/.npm" />
+            <excludedPath path="/home/pi/bcm2835-1.57.tar.gz" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="pi-local-campus">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/node_modules" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
